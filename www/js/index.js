@@ -1,6 +1,22 @@
 var paused_count =0;
 var resumed_count = 0;
 var launched_count = 0;
+var value1 = “House Key”;
+var key2 = “Phone”;
+var value2 = “Android”;
+var key3 = “Vape”;
+var value3 = “Alien”;
+var key4 = “Card”;
+var value4 = “Visa”;
+var key5 = “Money”;
+var value5 = “Yes”;
+
+window.localStorage.setItem( key, value );
+window.localStorage.setItem( key1, value1 );
+window.localStorage.setItem( key2, value2 );
+window.localStorage.setItem( key3, value3 );
+window.localStorage.setItem( key4, value4 );
+
 
 document.addEventListener("deviceready", onDeviceReady, false);
 		
